@@ -1,0 +1,1171 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Download Kumpulan Script Bot WhatsApp Multi Device Gratis, No Encrypt, dan Terupdate by Andri Store. Tersedia script Bug, Cpanel, dan Store.">
+    <meta name="keywords" content="script bot wa, bot whatsapp gratis, script multi device, andri store, script bug wa">
+    <meta name="author" content="Andri Store">
+    <meta property="og:title" content="SCRIPT FREE BY ANDRI STORE - Download Script Bot WA Gratis">
+    <meta property="og:description" content="Kumpulan script bot WhatsApp Multi Device terlengkap dan gratis.">
+    
+    <title>SCRIPT FREE BY ANDRI STORE | Official Website</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    
+    <style>
+        :root {
+            --primary-purple: rgba(138, 43, 226, 0.9);
+            --dark-purple: rgba(93, 26, 158, 0.9);
+            --light-purple: rgba(177, 156, 217, 0.9);
+            --transparent-black: rgba(18, 18, 18, 0.7);
+            --transparent-dark: rgba(30, 30, 30, 0.8);
+            --transparent-blue: rgba(65, 105, 225, 0.9);
+            --glass-effect: rgba(20, 20, 30, 0.7);
+            --glass-border: rgba(255, 255, 255, 0.3);
+            --white: #ffffff;
+            --neon-green: #39ff14;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            color: var(--white);
+            line-height: 1.6;
+            overflow-x: hidden;
+            background-color: #0a0a0a;
+        }
+        
+        /* Video Background */
+        #video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -2;
+            filter: brightness(0.8) contrast(1.1);
+        }
+        
+        /* Overlay untuk transparansi */
+        .video-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: 
+                linear-gradient(135deg, 
+                    rgba(10, 10, 20, 0.4) 0%,
+                    rgba(5, 5, 15, 0.5) 100%),
+                radial-gradient(circle at 20% 30%, rgba(90, 20, 160, 0.15) 0%, transparent 40%),
+                radial-gradient(circle at 80% 80%, rgba(65, 105, 225, 0.1) 0%, transparent 40%);
+            z-index: -1;
+            pointer-events: none;
+            transition: opacity 0.5s ease;
+        }
+        
+        /* Efek partikel */
+        .particles {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            pointer-events: none;
+            opacity: 0.4;
+        }
+        
+        .particle {
+            position: absolute;
+            background: rgba(138, 43, 226, 0.2);
+            border-radius: 50%;
+            animation: float-particle 15s infinite linear;
+        }
+        
+        @keyframes float-particle {
+            0% { transform: translateY(0) translateX(0); opacity: 0.3; }
+            25% { transform: translateY(-20vh) translateX(10vw); opacity: 0.5; }
+            50% { transform: translateY(-10vh) translateX(20vw); opacity: 0.4; }
+            75% { transform: translateY(-30vh) translateX(-10vw); opacity: 0.45; }
+            100% { transform: translateY(0) translateX(0); opacity: 0.3; }
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Glassmorphism Effect */
+        .glass-card {
+            background: rgba(25, 25, 35, 0.75);
+            backdrop-filter: blur(12px) saturate(160%);
+            -webkit-backdrop-filter: blur(12px) saturate(160%);
+            border: 1px solid rgba(255, 255, 255, 0.25);
+            border-radius: 15px;
+            box-shadow: 
+                0 8px 32px rgba(0, 0, 0, 0.3),
+                inset 0 1px 0 rgba(255, 255, 255, 0.15);
+        }
+        
+        /* Header Styles */
+        header {
+            padding: 25px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            transition: all 0.3s ease;
+            background: rgba(25, 25, 35, 0.85);
+            backdrop-filter: blur(15px);
+            border-bottom: 2px solid rgba(138, 43, 226, 0.5);
+        }
+        
+        .header-scrolled {
+            background: rgba(25, 25, 35, 0.95);
+            backdrop-filter: blur(20px);
+            border-bottom: 2px solid rgba(138, 43, 226, 0.7);
+            box-shadow: 0 5px 30px rgba(0, 0, 0, 0.6);
+            padding: 15px 0;
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .logo-icon {
+            background: linear-gradient(45deg, var(--primary-purple), var(--transparent-blue));
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            box-shadow: 
+                0 0 25px rgba(138, 43, 226, 0.8),
+                inset 0 1px 1px rgba(255, 255, 255, 0.3);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { box-shadow: 0 0 25px rgba(138, 43, 226, 0.8), inset 0 1px 1px rgba(255, 255, 255, 0.3); }
+            50% { box-shadow: 0 0 35px rgba(138, 43, 226, 1), inset 0 1px 1px rgba(255, 255, 255, 0.4); }
+        }
+        
+        .logo-text h1 {
+            font-size: 24px;
+            background: linear-gradient(to right, var(--primary-purple), var(--transparent-blue));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            text-shadow: 0 2px 15px rgba(138, 43, 226, 0.5);
+            font-weight: 800;
+        }
+        
+        .logo-text p {
+            font-size: 13px;
+            color: var(--light-purple);
+            text-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+            letter-spacing: 1px;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 20px;
+        }
+        
+        nav a {
+            color: var(--white);
+            text-decoration: none;
+            font-weight: 600;
+            padding: 8px 20px;
+            border-radius: 30px;
+            transition: all 0.3s ease;
+            position: relative;
+            background: rgba(138, 43, 226, 0.1);
+            border: 1px solid rgba(138, 43, 226, 0.3);
+            font-size: 14px;
+        }
+        
+        nav a:hover, nav a.active {
+            background: linear-gradient(45deg, var(--primary-purple), var(--transparent-blue));
+            color: white;
+            box-shadow: 0 0 20px rgba(138, 43, 226, 0.6);
+            border-color: transparent;
+            transform: translateY(-2px);
+        }
+        
+        /* Hero Section */
+        .hero {
+            padding: 140px 0 80px;
+            text-align: center;
+            position: relative;
+        }
+        
+        .hero-content {
+            max-width: 900px;
+            margin: 0 auto 60px;
+            padding: 60px 40px;
+            border-radius: 20px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero h2 {
+            font-size: 48px;
+            margin-bottom: 25px;
+            background: linear-gradient(to right, var(--primary-purple), var(--transparent-blue));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            text-shadow: 0 5px 25px rgba(138, 43, 226, 0.4);
+            font-weight: 800;
+            line-height: 1.2;
+        }
+        
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 30px;
+            color: rgba(255, 255, 255, 0.9);
+            line-height: 1.8;
+        }
+        
+        /* Search Box Styles (NEW) */
+        .search-container {
+            margin: 0 auto 40px;
+            max-width: 600px;
+            position: relative;
+        }
+
+        .search-input-wrapper {
+            position: relative;
+            width: 100%;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 15px 50px 15px 25px;
+            border-radius: 50px;
+            background: rgba(25, 25, 35, 0.6);
+            border: 2px solid rgba(138, 43, 226, 0.4);
+            color: white;
+            font-size: 16px;
+            outline: none;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        .search-input:focus {
+            background: rgba(30, 30, 45, 0.9);
+            border-color: var(--primary-purple);
+            box-shadow: 0 0 20px rgba(138, 43, 226, 0.4);
+        }
+
+        .search-icon {
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--light-purple);
+            font-size: 20px;
+        }
+        
+        /* Support Section */
+        .support-section {
+            padding: 60px 0;
+        }
+        
+        .support-content {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 50px;
+            border-radius: 20px;
+            text-align: center;
+        }
+        
+        .support-title {
+            font-size: 36px;
+            margin-bottom: 20px;
+            background: linear-gradient(to right, #25D366, #128C7E);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            font-weight: 800;
+        }
+        
+        .support-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin: 40px 0;
+        }
+        
+        .support-item {
+            padding: 25px;
+            border-radius: 15px;
+            background: rgba(40, 40, 50, 0.6);
+            border: 1px solid rgba(37, 211, 102, 0.3);
+            transition: all 0.3s ease;
+        }
+        
+        .support-item:hover {
+            transform: translateY(-5px);
+            border-color: #25D366;
+        }
+        
+        .support-icon {
+            font-size: 35px;
+            color: #25D366;
+            margin-bottom: 15px;
+        }
+        
+        /* QR Code Container Portrait */
+        .qr-code-container {
+            margin: 30px auto;
+            padding: 20px;
+            background: rgba(40, 40, 50, 0.6);
+            border-radius: 15px;
+            border: 2px solid rgba(37, 211, 102, 0.4);
+            max-width: 350px;
+        }
+        
+        .qr-code {
+            width: 100%;
+            max-width: 180px;
+            aspect-ratio: 9/16;
+            margin: 0 auto 15px;
+            background: white;
+            border-radius: 10px;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .qr-code img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        
+        .whatsapp-btn {
+            display: inline-block;
+            background: #25D366;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 700;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+        }
+        
+        .whatsapp-btn:hover {
+            background: #128C7E;
+            transform: scale(1.05);
+            box-shadow: 0 0 15px rgba(37, 211, 102, 0.5);
+        }
+        
+        /* Scripts Section */
+        .scripts-section {
+            padding: 80px 0;
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        
+        .section-title h2 {
+            font-size: 36px;
+            color: var(--white);
+            margin-bottom: 15px;
+        }
+        
+        .filters {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+        
+        .filter-btn {
+            background: rgba(40, 40, 50, 0.7);
+            border: 1px solid rgba(138, 43, 226, 0.5);
+            color: var(--white);
+            padding: 10px 25px;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 600;
+        }
+        
+        .filter-btn:hover, .filter-btn.active {
+            background: var(--primary-purple);
+            box-shadow: 0 0 15px rgba(138, 43, 226, 0.6);
+            transform: translateY(-2px);
+        }
+        
+        .scripts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 30px;
+        }
+        
+        .script-card {
+            border-radius: 20px;
+            overflow: hidden;
+            transition: all 0.4s ease;
+            display: flex;
+            flex-direction: column;
+            border: 1px solid rgba(138, 43, 226, 0.3);
+            background: rgba(35, 35, 45, 0.7);
+            height: 100%;
+        }
+        
+        .script-card:hover {
+            transform: translateY(-10px);
+            border-color: var(--primary-purple);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+        }
+        
+        .script-header {
+            padding: 20px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            background: rgba(40, 40, 50, 0.5);
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        
+        .script-info h3 {
+            font-size: 20px;
+            margin-bottom: 8px;
+            color: var(--white);
+        }
+        
+        .script-icon-box {
+            width: 50px;
+            height: 50px;
+            background: rgba(138, 43, 226, 0.2);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--primary-purple);
+            font-size: 24px;
+            flex-shrink: 0;
+            margin-left: 15px;
+        }
+        
+        .script-category {
+            font-size: 12px;
+            padding: 4px 12px;
+            background: rgba(65, 105, 225, 0.3);
+            border-radius: 12px;
+            color: #add8e6;
+            border: 1px solid rgba(65, 105, 225, 0.5);
+        }
+        
+        .script-body {
+            padding: 20px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .script-description {
+            color: rgba(255, 255, 255, 0.8);
+            margin-bottom: 20px;
+            font-size: 15px;
+            flex-grow: 1;
+        }
+        
+        .download-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            width: 100%;
+            background: linear-gradient(45deg, var(--primary-purple), var(--transparent-blue));
+            color: white;
+            padding: 12px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 700;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(138, 43, 226, 0.4);
+        }
+        
+        /* Loading Overlay */
+        .loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.95);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 2000;
+            display: none;
+        }
+        
+        .loading-spinner {
+            width: 80px;
+            height: 80px;
+            border: 5px solid rgba(138, 43, 226, 0.3);
+            border-top: 5px solid var(--primary-purple);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-bottom: 20px;
+        }
+        
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+        
+        /* Contact Section */
+        .contact-card {
+            padding: 30px;
+            text-align: center;
+            background: rgba(40, 40, 50, 0.7);
+            border: 1px solid rgba(138, 43, 226, 0.3);
+            border-radius: 20px;
+            height: 100%;
+        }
+        
+        .contact-icon {
+            width: 70px;
+            height: 70px;
+            background: linear-gradient(45deg, var(--primary-purple), var(--transparent-blue));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            font-size: 28px;
+            box-shadow: 0 0 20px rgba(138, 43, 226, 0.5);
+        }
+        
+        /* Footer */
+        footer {
+            padding: 40px 0;
+            border-top: 1px solid rgba(138, 43, 226, 0.3);
+            background: rgba(20, 20, 25, 0.9);
+            margin-top: 60px;
+            text-align: center;
+        }
+        
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 20px 0;
+        }
+        
+        .social-links a {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        
+        .social-links a:hover {
+            background: var(--primary-purple);
+            transform: translateY(-5px);
+        }
+        
+        /* Floating Controls */
+        .control-btn {
+            position: fixed;
+            right: 30px;
+            z-index: 99;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: rgba(40, 40, 50, 0.9);
+            border: 2px solid var(--primary-purple);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+            transition: all 0.3s ease;
+        }
+        
+        .control-btn:hover { transform: scale(1.1); background: var(--primary-purple); }
+        
+        #musicControl { bottom: 30px; }
+        #videoControl { bottom: 90px; }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h2 { font-size: 32px; }
+            .header-content { flex-direction: column; gap: 15px; }
+            nav ul { flex-wrap: wrap; justify-content: center; gap: 10px; }
+            .scripts-grid { grid-template-columns: 1fr; }
+            .search-input { font-size: 14px; padding: 12px 20px; }
+        }
+    </style>
+</head>
+<body>
+    <video id="video-background" autoplay muted loop poster="https://files.catbox.moe/rivj5n.jpg">
+        <source src="https://files.catbox.moe/712qdo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+    <div class="video-overlay"></div>
+    <div class="particles" id="particles"></div>
+    
+    <audio id="background-music" loop>
+        <source src="https://files.catbox.moe/byes86.mp3" type="audio/mp3">
+    </audio>
+    
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-spinner"></div>
+        <div class="loading-text" style="font-size: 18px; font-weight: bold; color: #b19cd9;">Sedang Memproses...</div>
+    </div>
+    
+    <div class="control-btn" id="musicControl"><i class="fas fa-volume-up" id="musicIcon"></i></div>
+    <div class="control-btn" id="videoControl"><i class="fas fa-video" id="videoIcon"></i></div>
+    
+    <header id="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="logo-text">
+                        <h1>ANDRI STORE</h1>
+                        <p>SUBSCRIBE YT andristoreID</p>
+                    </div>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#home" class="active">Home</a></li>
+                        <li><a href="#scripts">Scripts</a></li>
+                        <li><a href="#contact">Kontak</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content glass-card animate__animated animate__fadeIn">
+                <h2>Kumpulan Script Free<br>Terlengkap 2026</h2>
+                <p>Temukan script bot WhatsApp berkualitas, gratis, dan aman. Semua script telah diuji oleh Owner AndristoreID.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="support-section">
+        <div class="container">
+            <div class="support-content glass-card animate__animated animate__fadeInUp">
+                <h2 class="support-title">SUPPORT OWNER</h2>
+                <p>Bantu server tetap hidup dengan berdonasi seikhlasnya.</p>
+                
+                <div class="qr-code-container">
+                    <div class="qr-title" style="margin-bottom:10px; color:#25D366; font-weight:bold;">QRIS / E-Wallet</div>
+                    <div class="qr-code">
+                        <img id="qrCodeImage" src="https://files.catbox.moe/hxj3j2.jpeg" alt="QR Code Donasi">
+                    </div>
+                    <p style="font-size: 14px;">Scan QR code di atas</p>
+                </div>
+                
+                <div class="support-grid">
+                    <div class="support-item">
+                        <div class="support-icon"><i class="fas fa-server"></i></div>
+                        <h3>Maitenance Server</h3>
+                        <p>Dana donasi akan digunakan untuk biaya maintenance server agar script selalu online 24/7</p>
+                    </div>
+                    <div class="support-item">
+                        <div class="support-icon"><i class="fas fa-code-branch"></i></div>
+                        <h3>Update Script Terbaru</h3>
+                        <p>Mendukung pengembangan dan update script terbaru dengan fitur-fitur baru</p>
+                    </div>
+                </div>
+                
+                <a href="https://wa.me/6281371379077?text=Halo%20Admin,%20saya%20sudah%20donasi" class="whatsapp-btn" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Konfirmasi Donasi
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <section class="scripts-section" id="scripts">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="animate__animated animate__fadeInUp">Daftar Script</h2>
+                <p>Gunakan fitur pencarian atau filter di bawah ini.</p>
+            </div>
+            
+            <div class="search-container animate__animated animate__fadeInUp">
+                <div class="search-input-wrapper">
+                    <input type="text" id="searchInput" class="search-input" placeholder="Cari nama script (contoh: Shiroko, Violet)...">
+                    <i class="fas fa-search search-icon"></i>
+                </div>
+            </div>
+            
+            <div class="filters animate__animated animate__fadeInUp">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="Multi Device">Multi Device</button>
+                <button class="filter-btn" data-filter="Bug">Bug</button>
+                <button class="filter-btn" data-filter="Cpanel">Cpanel</button>
+                <button class="filter-btn" data-filter="Store">Store</button>
+            </div>
+            
+            <div class="scripts-grid" id="scriptsContainer">
+                </div>
+            
+            <div id="noResults" style="text-align: center; display: none; margin-top: 20px;">
+                <i class="fas fa-box-open" style="font-size: 50px; color: rgba(255,255,255,0.3);"></i>
+                <p style="margin-top: 10px; color: rgba(255,255,255,0.5);">Script tidak ditemukan.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Kontak Owner</h2>
+            </div>
+            <div class="scripts-grid"> <div class="contact-card glass-card">
+                    <div class="contact-icon"><i class="fas fa-user-shield"></i></div>
+                    <h3>Owner</h3>
+                    <p>ANDRI STORE</p>
+                </div>
+                <div class="contact-card glass-card">
+                    <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
+                    <h3>WhatsApp</h3>
+                    <p>+62 813-7137-9077</p>
+                </div>
+                <div class="contact-card glass-card">
+                    <div class="contact-icon"><i class="fab fa-telegram-plane"></i></div>
+                    <h3>Telegram</h3>
+                    <p>@Androstore022</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-logo">
+                <h3>SCRIPT FREE BY ANDRI STORE</h3>
+                <p>© 2026 SCRIPT FREE BY ANDRI STORE. All rights reserved.
+
+UU ITE (UU No. 11 Tahun 2008 jo. UU No. 19 Tahun 2016 jo. UU No. 1 Tahun 2024)</p>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        // Database Script (ID sudah diperbaiki ke format angka standar)
+        const scripts = [
+            {
+                id: 1,
+                title: "SCRIPT ANDRI STORE ID",
+                category: "Multi Device",
+                description: "Bot WhatsApp Multi Device Masa Pengembangan. Stabil dan ringan.",
+                downloadLink: "https://www.mediafire.com/file/o1yvgnssxjt75vm/ANDRI_STORE_ID_V1.5._YT.zip/file"
+            },
+            {
+                id: 2,
+                title: "SCRIPT AUTO ORDER PANEL",
+                category: "Cpanel",
+                description: "Fitur Cpanel lengkap dengan Auto Order. Cocok untuk seller.",
+                downloadLink: "https://www.mediafire.com/file/xuw3p9i3emgaaoe/Sc_auto_order_by_andri_store.tar.gz/file"
+            },
+            {
+                id: 3,
+                title: "SCRIPT FURINA MD X RIZALGANZ",
+                category: "Multi Device",
+                description: "Fitur super lengkap 1300++ menu. Base ringan.",
+                downloadLink: "https://www.mediafire.com/file/589qv7btjpyqyx1/Script_bot_WhatsApp_MD_1300%252B.zip/file"
+            },
+            {
+                id: 4,
+                title: "SCRIPT LYRRA MD V7",
+                category: "Multi Device",
+                description: "Update V7 dengan 1500 fitur. Tampilan menu menarik.",
+                downloadLink: "https://www.mediafire.com/file/l3ste56e9a7ft72/Script_Lyrra_MD_V7.zip/file"
+            },
+            {
+                id: 5,
+                title: "SCRIPT BUG VIOLET EVAGARDEN",
+                category: "Bug",
+                description: "Script khusus Bug War, crash target. Gunakan dengan bijak.",
+                downloadLink: "https://www.mediafire.com/file/xh9x50db1y2gyll/VIOLET_EVAGARDEN_FREE.zip/file"
+            },
+            {
+                id: 6,
+                title: "SCRIPT LAUNCHER MD",
+                category: "Multi Device",
+                description: "Fixed Typo: Launcher MD. Semua fitur work 100%.",
+                downloadLink: "https://www.mediafire.com/file/q5ujp07xk25qldj/LAUCHER_MD.zip/file"
+            },
+            {
+                id: 7,
+                title: "SCRIPT DABI - AI",
+                category: "Multi Device",
+                description: "Integrasi AI pintar. Respon cepat dan akurat.",
+                downloadLink: "https://www.mediafire.com/file/7uc28ibmmcxsxmq/Dabi-Ai-BY_ANDRI_STORE.zip/file"
+            },
+            {
+                id: 8,
+                title: "SCRIPT YAEMIKO - MD",
+                category: "Multi Device",
+                description: "Tema Anime Yaemiko. Fitur lengkap masa pengembangan.",
+                downloadLink: "https://www.mediafire.com/file/uhbwz90s9fehckh/%25F0%259D%2597%25AC%25F0%259D%2597%2594%25F0%259D%2597%2598%25F0%259D%2597%25A0%25F0%259D%2597%259C%25F0%259D%2597%259E%25F0%259D%2597%25A2-%25F0%259D%2597%25A0%25F0%259D%2597%2597.zip/file"
+            },
+            {
+                id: 9,
+                title: "SCRIPT SHIROKO MD V3",
+                category: "Multi Device",
+                description: "Shiroko V3 Update. Fitur Anime, Game, dan RPG.",
+                downloadLink: "https://www.mediafire.com/file/itsfuwy0dmmdt0q/SHIROKO_MD_ANDRI.tar.gz/file"
+            },
+            {
+                id: 10,
+                title: "SCRIPT ARONA MD NEW",
+                category: "Multi Device",
+                description: "Baileys terbaru. Anti delay, fast connect.",
+                downloadLink: "https://www.mediafire.com/file/gozipp38472m9qj/Arona_MD_andri.tar.gz/file"
+            },
+            {
+                id: 11,
+                title: "SCRIPT NEO FLARE V6",
+                category: "Multi Device",
+                description: "Neo Flare Version 6. Stabil di RDP minim RAM.",
+                downloadLink: "https://www.mediafire.com/file/bnp3ghu9jv42ftj/NEO_FLARE_V6_BY_ANDRI.tar.gz/file"
+            },
+            {
+                id: 12,
+                title: "SCRIPT ZETA MD UPDATE",
+                category: "Multi Device",
+                description: "Zeta MD update terbaru. Fix bug button.",
+                downloadLink: "https://www.mediafire.com/file/xde8krgq0taksix/ZETA_MD_NEW_UPDATE_BY_ANDRI.tar.gz/file"
+            },
+            {
+                id: 13,
+                title: "SCRIPT OURIN MD",
+                category: "Multi Device",
+                description: "Menu AI, Anime, Cek, Convert, Download lengkap.",
+                downloadLink: "https://www.mediafire.com/file/p83pegk6nresn6d/OURIN-MD-NEW_UPDATE.tar.gz/file"
+            },
+            {
+                id: 14,
+                title: "SCRIPT KUROKO V6",
+                category: "Multi Device",
+                description: "Kuroko V6 New Update. Baileys updated.",
+                downloadLink: "https://www.mediafire.com/file/nbi8l170zsqy0hj/Kuroko_v6_new_update.zip/file"
+            },
+            {
+                id: 15,
+                title: "SCRIPT CHII-MD NEW",
+                category: "Multi Device",
+                description: "Chii MD by Andri. Simple dan elegan.",
+                downloadLink: "https://www.mediafire.com/file/r3dj7xgf8nt8l8h/ChiiMD-ANDRI.zip/file"
+            },
+            {
+                id: 16,
+                title: "SCRIPT ANDRI STORE V2",
+                category: "Multi Device",
+                description: "Versi 2 dari script official Andri Store.",
+                downloadLink: "https://www.mediafire.com/file/hcabe3rivjk24ly/ANDRI_STORE_ID_V2.zip/file"
+            },
+            {
+                id: 17,
+                title: "SCRIPT ALIP AI NEW",
+                category: "Multi Device",
+                description: "Full fitur AI canggih dalam satu bot.",
+                downloadLink: "https://www.mediafire.com/file/g3jdskzp7banhfv/ALIP_AI_NEW_UPDATE.tar.gz/file"
+            },
+            {
+                id: 18,
+                title: "SCRIPT VREDEN-MD",
+                category: "Multi Device",
+                description: "Vreden MD v16. Paling dicari saat ini.",
+                downloadLink: "https://www.mediafire.com/file/3b4z2urvk3w1nk1/vreden-md_v16.tar.gz/file"
+            }, 
+            {
+                id: 19,
+                title: "SCRIPT OCHOBOT-MD V 5.0",
+                category: "Multi Device",
+                description: "OCHOBOT-MD V 5.0. Paling dicari saat ini.",
+                downloadLink: "https://www.mediafire.com/file/qw45j52c1i3uzyj/OchoBot_V5.0_%255B_Update_%255D.zip/file"
+            }, 
+            {
+                id: 20,
+                title: "SCRIPT TIO MD TEAM NEW",
+                category: "Multi Device",
+                description: "TIO MD TEAM Paling dicari saat ini.",
+                downloadLink: "https://www.mediafire.com/file/2ufamdquvkrp5v9/SC_TIO-MD_UPDATE.zip/file"
+            },
+            {
+                id: 21,
+                title: "SCRIPT HOSINO MD NEW",
+                category: "Multi Device",
+                description: "HOSINO MD NEW Paling dicari saat ini.",
+                downloadLink: "https://www.mediafire.com/file/mgoycwn16uzrwmg/HOSINO_MD_NEW.zip/file"
+            }, 
+            {
+                id: 22,
+                title: "SCRIPT OOURINN AI NEW UP V2",
+                category: "Multi Device",
+                description: "OURIN AI NEW Paling dicari saat ini.",
+                downloadLink: "https://www.mediafire.com/file/06ddjle8lup8ht2/OURIN_AI_V2.zip/file"
+            }, 
+            {
+                id: 23,
+                title: "SCRIPT VIOLET EVAGARDEN V2",
+                category: " Bug",
+                description: "Violet V2 Paling dicari saat ini.",
+                downloadLink: "https://www.mediafire.com/file/xqs6qn3ltuf6iie/Violet_V2_VIP_FREE.zip/file"
+            }, 
+            {
+                id: 24,
+                title: "SCRIPT AXONIC V12",
+                category: "Multi Device",
+                description: "AXONIC V12 Paling dicari saat ini.",
+                downloadLink: "https://www.mediafire.com/file/t0nyyc45rsxvyw4/AXONIC_V12.zip/file"
+            }, 
+            {
+                id: 25,
+                title: "SCRIPT FANATIC V1 VIP",
+                category: "Multi Device",
+                description: "FANATIC V1 Paling dicari saat ini.",
+                downloadLink: "https://www.mediafire.com/file/j0tvmn69wo1nnqv/FANATIXV1_%255B_VIP_%255D_NEW.zip/file"
+            }
+
+        ];
+        
+        // DOM Elements
+        const scriptsContainer = document.getElementById('scriptsContainer');
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const searchInput = document.getElementById('searchInput');
+        const noResults = document.getElementById('noResults');
+        const loadingOverlay = document.getElementById('loadingOverlay');
+        const header = document.getElementById('header');
+        
+        // --- LOGIC RENDER & SEARCH ---
+        
+        function renderScripts(dataArray) {
+            scriptsContainer.innerHTML = '';
+            
+            if (dataArray.length === 0) {
+                noResults.style.display = 'block';
+                return;
+            } else {
+                noResults.style.display = 'none';
+            }
+            
+            dataArray.forEach((script, index) => {
+                const delay = index * 0.1;
+                
+                // Tentukan icon berdasarkan kategori
+                let iconClass = 'fa-robot';
+                if(script.category === 'Bug') iconClass = 'fa-bug';
+                if(script.category === 'Cpanel') iconClass = 'fa-server';
+                if(script.category === 'Store') iconClass = 'fa-store';
+                
+                const card = document.createElement('div');
+                card.className = 'script-card glass-card animate__animated animate__fadeInUp';
+                card.style.animationDelay = `${delay}s`;
+                
+                card.innerHTML = `
+                    <div class="script-header">
+                        <div class="script-info">
+                            <span class="script-category">${script.category}</span>
+                            <h3>${script.title}</h3>
+                        </div>
+                        <div class="script-icon-box">
+                            <i class="fas ${iconClass}"></i>
+                        </div>
+                    </div>
+                    <div class="script-body">
+                        <p class="script-description">${script.description}</p>
+                        <a href="${script.downloadLink}" target="_blank" class="download-btn" onclick="showLoader()">
+                            <i class="fas fa-download"></i> Download
+                        </a>
+                    </div>
+                `;
+                scriptsContainer.appendChild(card);
+            });
+        }
+        
+        // Initial Display
+        renderScripts(scripts);
+        
+        // Filter Logic
+        filterButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Active class toggle
+                filterButtons.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                
+                // Reset search input
+                searchInput.value = '';
+                
+                const filterValue = btn.getAttribute('data-filter');
+                if (filterValue === 'all') {
+                    renderScripts(scripts);
+                } else {
+                    const filtered = scripts.filter(s => s.category === filterValue);
+                    renderScripts(filtered);
+                }
+            });
+        });
+        
+        // Search Logic (Real-time)
+        searchInput.addEventListener('input', (e) => {
+            const keyword = e.target.value.toLowerCase();
+            
+            // Saat mencari, hilangkan active class di filter agar user tau ini hasil pencarian global
+            filterButtons.forEach(b => b.classList.remove('active'));
+            
+            const searchResults = scripts.filter(script => {
+                return script.title.toLowerCase().includes(keyword) || 
+                       script.description.toLowerCase().includes(keyword) ||
+                       script.category.toLowerCase().includes(keyword);
+            });
+            
+            renderScripts(searchResults);
+        });
+        
+        // --- UTILITIES ---
+        
+        function showLoader() {
+            loadingOverlay.style.display = 'flex';
+            setTimeout(() => {
+                loadingOverlay.style.display = 'none';
+            }, 3000); // 3 detik
+        }
+        
+        // Header Scroll Effect
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.classList.add('header-scrolled');
+            } else {
+                header.classList.remove('header-scrolled');
+            }
+        });
+        
+        // Media Control Logic
+        const bgMusic = document.getElementById('background-music');
+        const vidBg = document.getElementById('video-background');
+        const musicBtn = document.getElementById('musicControl');
+        const videoBtn = document.getElementById('videoControl');
+        let isMusicPlaying = false; // Default off (browser policy)
+        let isVideoVisible = true;
+        
+        // Attempt Autoplay Music (Must interact usually)
+        window.addEventListener('click', () => {
+            if(!isMusicPlaying) {
+                // Hapus baris ini jika tidak ingin musik nyala otomatis saat klik pertama
+                // bgMusic.play().catch(e => console.log(e)); 
+                // isMusicPlaying = true;
+                // updateIcons();
+            }
+        }, { once: true });
+        
+        musicBtn.addEventListener('click', () => {
+            if (isMusicPlaying) {
+                bgMusic.pause();
+                isMusicPlaying = false;
+            } else {
+                bgMusic.play();
+                isMusicPlaying = true;
+            }
+            updateIcons();
+        });
+        
+        videoBtn.addEventListener('click', () => {
+            if (isVideoVisible) {
+                vidBg.style.opacity = '0'; // Hide video
+                videoBtn.style.opacity = '0.5';
+            } else {
+                vidBg.style.opacity = '1'; // Show video
+                videoBtn.style.opacity = '1';
+            }
+            isVideoVisible = !isVideoVisible;
+        });
+        
+        function updateIcons() {
+            const icon = document.getElementById('musicIcon');
+            if(isMusicPlaying) {
+                icon.className = 'fas fa-volume-up';
+                musicBtn.style.border = '2px solid #39ff14'; // Green glow
+            } else {
+                icon.className = 'fas fa-volume-mute';
+                musicBtn.style.border = '2px solid rgba(255,255,255,0.3)';
+            }
+        }
+        
+        // Particle System (Optimized)
+        function createParticles() {
+            const container = document.getElementById('particles');
+            container.innerHTML = '';
+            const count = window.innerWidth < 768 ? 15 : 30; // Kurangi partikel di HP
+            
+            for (let i = 0; i < count; i++) {
+                const p = document.createElement('div');
+                p.className = 'particle';
+                p.style.width = Math.random() * 5 + 2 + 'px';
+                p.style.height = p.style.width;
+                p.style.left = Math.random() * 100 + '%';
+                p.style.animationDuration = Math.random() * 10 + 10 + 's';
+                p.style.animationDelay = Math.random() * 5 + 's';
+                container.appendChild(p);
+            }
+        }
+        
+        createParticles();
+        window.addEventListener('resize', createParticles);
+        
+    </script>
+</body>
+</html>
