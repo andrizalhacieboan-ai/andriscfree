@@ -1134,9 +1134,9 @@ UU ITE (UU No. 11 Tahun 2008 jo. UU No. 19 Tahun 2016 jo. UU No. 1 Tahun 2024)</
         window.addEventListener('click', () => {
             if(!isMusicPlaying) {
                 // Hapus baris ini jika tidak ingin musik nyala otomatis saat klik pertama
-                // bgMusic.play().catch(e => console.log(e)); 
-                // isMusicPlaying = true;
-                // updateIcons();
+                 bgMusic.play().catch(e => console.log(e)); 
+                 isMusicPlaying = true;
+                 updateIcons();
             }
         }, { once: true });
         
